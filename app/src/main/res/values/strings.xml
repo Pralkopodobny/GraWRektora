@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">GraWRektora</string>
+    <string name="s_help">Help</string>
+    <string name="s_game">Game</string>
+    <string name="s_scores">Scores</string>
+    <string name="s_sub_items">Sub items</string>
+    <string name="s_sub_item_1">Sub item 1</string>
+    <string name="s_sub_item_2">Sub item 2</string>
+    <string name="s_end_of_game">Koniec Gry!</string>
+    <string name="bad_ending">\t\t\tTwoja przygoda na uczelni dobiegłą końca w dość bolesny sposób i
+        zostałeś zapamiętany jako jesen z najkrócej rządzących i najgorszych rektorów uczelni!
+        Miejmy nadzieję, że następni rektorzy wyciągną wnioski z twoich błędów.
+    </string>
+    <string name="normal_ending">\t\t\tNa uczelni zapamiętuje się najlepszych rektorów i najgorszych.
+        Ty natomiast nie jesteś żadnym z nich. Twoje rządy były stabilne i poprawne. Miejmy
+        nadzieję, że następni rektorzy będą równie poprawni jak ty.
+    </string>
+    <string name="great_ending">\t\t\tŚpieszmy się kochać rektorów, tak szybko odchodzą… Nie tym razem!
+        Dzierżyłeś władzę na uczelni od niepamiętnych czasów, ale na wszystko przychodzi koniec!
+        Miejmy nadzieję, że twój następca będzie tak dobrym rektorem jak ty!
+    </string>
+
+    <string name="help_1">O grze</string>
+    <string name="help_2">\t\t\tWitaj w grze w rektora! W tej grze wcielasz się w rektora władającego
+        uczelnią. Jako rektor
+        musisz podejmować decyzje mając na uwadze zadowolenie 3 frakcji:
+    </string>
+    <string name="help_3">Studentów</string>
+    <string name="help_4">Profesorów</string>
+    <string name="help_5">Młodych doktorów</string>
+    <string name="help_6">Których zadowolenie będzie reprezentowane przez 3 paski:</string>
+    <string name="help_7">\t\t\tMusisz manipulować zadowoleniem wszystkich frakcji tak, żeby żadna z nich
+        się nie zbuntowała i nie obaliła twoich rządów.
+    </string>
+    <string name="help_8">Przegrywasz, w momencie kiedy którykolwiek z pasków zadowolenia spadnie
+        do 0 lub się całkowicie zapełni.
+    </string>
+    <string name="help_9">Sterowanie</string>
+    <string name="help_10">\t\t\tNa ekranie będą wyświetlały się decyzje do podjęcia poprzez szybki ruch
+        telefonem w lewo (odrzucenie) lub prawo (akceptacja)
+    </string>
+    <string name="help_11">Zobacz jak długo będą trwały twoje rektorskie rządy!</string>
+    <string name="s_accept">Zaakceptowano</string>
+    <string name="s_reject">Odrzucono</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="placeholder_text">
+        \t\t\tStudenci domagają się zwiększenia niezależności. Chcą mieć możliwość przeprowadzania
+        wotum nieufności wobec pracowników naukowych. Pracownicy nie godni zaufania,
+        oczywiście zdaniem studentów, powini zostawać wydalani natychmiastowo z uczelni!
+    </string>
+    <string name="placeholder_header">
+        Wotum nieufności
+    </string>
+    <string name="placeholder_question">
+        Czy zaakceptujesz ich żądania?
+    </string>
+    <string name="rozwa_y_e_20_przepis_w">Rozważyłeś 20 przepisów</string>
+    <string name="zagraj_ponownie">Zagraj Ponownie!</string>
+    <string name="zapisz_wynik">Zapisz wynik</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="studenci">studenci:</string>
+    <string name="profesorowie">profesorowie:</string>
+    <string name="m_odzi_doktorzy">młodzi doktorzy:</string>
+    <!-- Values of events array-->
+    <string-array name="game_of_rektor_event_accepted_values">
+        <item>50	-50 -50	</item>
+        <item>15    0   -15</item>
+        <item>12	-10	-2</item>
+        <item>-10	10	3</item>
+        <item>0     -12 12</item>
+        <item>-8    6   10</item>
+        <item>-10   -10 -10</item>
+        <item>10    -8 5</item>
+        <item>-4    10  -8</item>
+        <item>-10   5   5</item>
+    </string-array>
+    <string-array name="game_of_rektor_event_rejected_values">
+        <item>-10	5	5</item>
+        <item>-15	0	5</item>
+        <item>-2	4	2</item>
+        <item>5     -10 0</item>
+        <item>0     4 -12</item>
+        <item>4     -4  -10</item>
+        <item>10    10  10</item>
+        <item>-10   15  -4</item>
+        <item>4     -15 5</item>
+        <item>5     -5  -5</item>
+    </string-array>
+    <string-array name="game_of_rektor_event_texts">
+        <item>
+            \t\t\tStudenci domagają się zwiększenia niezależności. Chcą mieć możliwość przeprowadzania
+            wotum nieufności wobec pracowników naukowych. Pracownicy nie godni zaufania,
+            oczywiście zdaniem studentów, powini zostawać wydalani natychmiastowo z uczelni!
+        </item>
+        <item>
+            \t\t\tStudenci chcą zwiększenia funduszy na koła naukowe, jednakże uczelnia dysponuje
+            ograniczonymi środkami pieniężnymi. Przeznaczenie większej ilości $ na studentów
+            oznaczałoby zabranie tych pieniędzy mniej wpływowym pracownikom uczelni!
+        </item>
+        <item>
+            \t\t\tWśród studentów popularne stało się wyznawanie pogańskich bogów, w szczególności
+            Dionizosa. Wobec tego studenci ŻĄDAJĄ równouprawnienia dla swojej nowej wiary i
+            możliwości wychwalania swojego boga w trakcie wykładów w formie picia alkoholu.
+        </item>
+        <item>
+            \t\t\tProfesorowie tracą poświęcają dużo czasu na konsultowanie studentów, którzy nie uczęszczają
+            na ich wykłady, w trakcie których zdobywaliby potrzebną wiedzę do wykonywania konsultowanych
+            zadań. Wobec tego profesorowie wnoszą o uczynienie wykładów obowiazkowymi.
+        </item>
+        <item>
+            \t\t\tMłodzi doktorzy i doktoranci narzekają na widoczne różnice jakościowe sal i gabinetów w
+            stosunku do doktorów oraz profesorów urzędujących od wielu lat na uczelni. Proponują zatem
+            co 3 letnią losową wymianę gabinetów.
+        </item>
+        <item>
+            \t\t\tKadrze uczelni nie podoba się, że studenci mogą ich anonimowo oceniać na serwisie Polwro.
+            Proponują zatem, żeby oceny studentów były podpisane z imienia i nazwiska. Oczywiście,
+            brak anonimowości nie gwarantuje rzetelności i może być postrzegane jako atak na prawa studenckie.
+        </item>
+        <item>
+            \t\t\tUczelnia ma problemy finansowe spowodowane stawianiem potężnych myszowych serverów Oracla.
+            W związku z tym, w celu ratowania kasy uczelnianej, zaproponowano nałożenie 10% podatku na
+            stołówkę
+        </item>
+        <item>
+            \t\t\tWczoraj w nocy wydarzył się skandal, przyłapano poważnego profesora na tajnej plantacji
+            kaktusów (a wiadomo, rząd zdelegalizował wszystkie kaktusy). Kierownik katedry informacyjnej
+            (propagandowej) zaproponował szybkie wydalenie profesora i wypuszczenie serii arykułów celujących
+            w jego osobę. Jednakże pozostałym profesorom może się to nie spodobać.
+        </item>
+        <item>
+            \t\t\tNowy pracownik naukowy, w ramach protestu przeciw zakazowi głaskania dzikich kotów na
+            terenie uczelni, ustawił na wszystkich sprzętach uczelnianych tapety ze słodkimi kotkami.
+            Nie byłoby to problematyczne, gdyby nie to, że dziekan ważnego wydziału trenowania psów
+            promował nowe przepisy. Czy ukarać kotoluba?
+        </item>
+        <item>
+            \t\t\tWykładowcy zauważyli pewien trend na wykładach. Przed premierą Cyberpunk2077 średnio 5%
+            studentów kożystało z laptopów w trakcie zajęć, po premierze liczba ta wynosiła 40%!
+            Wyczuwając pewna, niezbyt korzystną, zależność postanowili złożyć wniosek o całkowity zakaz
+            korzystania z laptopów na wykładach.
+        </item>
+    </string-array>
+    <string-array name="game_of_rektor_event_questions">
+        <item>
+            Czy zaakceptujesz ich żądania?
+        </item>
+        <item>
+            Czy dofinansujesz koła naukowe?
+        </item>
+        <item>
+            Czy zaakceptujesz wiarę w Dionizosa?
+        </item>
+        <item>
+            Czy uczynisz wykłady obowiązkowymi?
+        </item>
+        <item>
+            Czy zaryzykujesz stratę swojego wygodnego gabinetu w losowaniu?
+        </item>
+        <item>
+            Czy pozwolisz prowadzącym na wywieranie presji na studentach?
+        </item>
+        <item>
+            Czy wprowadzisz nowy podatek?
+        </item>
+        <item>
+            Czy wydalisz profesora (za którym i tak nie przepadasz)?
+        </item>
+        <item>
+            Czy zdjęcia słodkich kotków Ci przeszkadzają?
+        </item>
+        <item>
+           Czy przeszkadzają Ci studenci wspierający polski przemysł growy?
+        </item>
+    </string-array>
+    <string-array name="game_of_rektor_headers">
+        <item>
+            Wotum nieufności
+        </item>
+        <item>
+            Koła naukowe
+        </item>
+        <item>
+            Sprawa Dionizosa
+        </item>
+        <item>
+            Obowiązkowe wykłady
+        </item>
+        <item>
+            Losowanie sal
+        </item>
+        <item>
+            Anonimowe oceny
+        </item>
+        <item>
+            Podatek stołówkowy
+        </item>
+        <item>
+            Kaktusowa awantura
+        </item>
+        <item>
+            Koci kryzys
+        </item>
+        <item>
+            Premiera Cyberpunk2077
+        </item>
+    </string-array>
+
+
+
+</resources>

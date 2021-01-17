@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2175F3</color>
+    <color name="colorPrimaryBrighter">#1969E1</color>
+    <color name="colorPrimaryDark">#215CF3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorSecondaryDark">#2175F3</color>
+    <color name="colorMyBackground">#1E1D1D</color>
+    <color name="colorMyProgressBarBackground">#171616</color>
+    <color name="colorStudentsProgressBar">#268526</color>
+    <color name="colorProfesorsProgressBar">#8A8A23</color>
+    <color name="colorPHDProgressBar">#039DDA</color>
+</resources>

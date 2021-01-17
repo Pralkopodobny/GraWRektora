@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMyBackground"
+    tools:context=".GameFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/event_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/event0" />
+
+            <TextView
+                android:id="@+id/event_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/placeholder_header"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/event_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:fontFamily="sans-serif"
+                android:justificationMode="inter_word"
+                android:text="@string/placeholder_text"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/event_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/placeholder_question"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="@string/studenci"/>
+
+            <ProgressBar
+                android:id="@+id/studenci_score"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:maxHeight="10dip"
+                android:minHeight="10dip"
+                android:progress="50"
+                android:progressDrawable="@drawable/student_progress_bar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="@string/profesorowie"/>
+
+            <ProgressBar
+                android:id="@+id/profesorowie_score"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:maxHeight="10dip"
+                android:minHeight="10dip"
+                android:progress="50"
+                android:progressDrawable="@drawable/profesor_progress_bar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="@string/m_odzi_doktorzy"/>
+
+            <ProgressBar
+                android:id="@+id/doktorzy_score"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:maxHeight="10dip"
+                android:minHeight="10dip"
+                android:progress="50"
+                android:progressDrawable="@drawable/phd_progress_bar"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>
